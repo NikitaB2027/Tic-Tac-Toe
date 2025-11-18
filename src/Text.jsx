@@ -1,6 +1,6 @@
 function Text(){
     return(
-        <h1>Custom Text Component</h1>
+        <h1>Nikita's Tic Tac Toe </h1>
     )
 
 }

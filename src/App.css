@@ -4,7 +4,23 @@
   padding: 2rem;
   text-align: center;
 }
-
+h2 {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  right:200px;
+  animation-name: mySquare;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes mySquare {
+  0%   {left:-75px; top:0px;}
+  25%  {left:500px; top:0px;}
+  50%  {left:500px; top:620px;}
+  75%  {left:-75px; top:620px;}
+  100% { left:-75px; top:0px;}
+}
 .logo {
   height: 6em;
   padding: 1.5em;
